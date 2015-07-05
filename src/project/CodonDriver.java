@@ -12,7 +12,6 @@ public class CodonDriver {
 	public static BufferedReader br;
 	public static String chromString = "";
 	public static int index = 0;
-
 	public static String line = "";
 	public static boolean play = false;
 	public static ArrayList<Character> sequence = new ArrayList<Character>();
@@ -20,7 +19,6 @@ public class CodonDriver {
 	public static CodonWindow window;
 	private final static String F_E_CODON = "TAA";
 	private final static String S_E_CODON = "TAG";
-
 	private final static String START_CODON = "ATG";
 	private final static String T_E_CODON = "TGA";
 
