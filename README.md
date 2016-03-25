@@ -4,4 +4,6 @@ This project was created at a hackathon after I had taken one programming course
 
 That said,
 
-I do intend to write a script to create package dependencies to make setup much simpler. I hope to do this soon :)
+* The main method can be found in CodonDriver.java under The-Human-Song/src/project
+** Make sure to run the project above the src directory after compiling using javac
+* I intend to write a script to create package dependencies to make setup much simple :)
