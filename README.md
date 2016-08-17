@@ -1,9 +1,19 @@
 # Disclaimer:
 
-This project was created at a hackathon after I had taken one programming course. It is therefore not an accurate reflection of clean coding practices that I have now come to appreciate.
+This project was created at a hackathon after I had taken one programming course. It's some of the worst code I've ever written. But it kinda works. 
 
-That said,
+## To run the project,
 
-* The main method can be found in CodonDriver.java under The-Human-Song/src/project
-* Make sure to run the project above the src directory after compiling using javac
-* I intend to write a script to create package dependencies to make setup much simpler :)
+Navigate to src/project, and compile the source using javac:
+
+```Sh
+javac . CodonWindow.java;
+javac . CodonDriver.java;
+javac . PlayMusic.java;
+```
+
+Then run the program from the **root** of the project directory:
+
+```Sh
+java src/project/CodonDriver
+```
